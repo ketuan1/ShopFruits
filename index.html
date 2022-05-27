@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Fruits</title>
+
+     <!-- link css -->
+     <link rel="stylesheet" href="./asset/css/style.css">
+     <link rel="stylesheet" href="./asset/css/main.css">
+     <link rel="stylesheet" href="./asset/css/responsive.css"> 
+
+    <!--link js -> css-->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <!-- Reset css -->
+    <link rel="stylesheet" href="./https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <!-- Font chu -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <!-- font icon -->
+    <link rel="stylesheet" href="./asset/font/fontawesome-free-6.0.0-web/css/all.min.css">  
+
+     <!-- Favicon -->
+     <link href="./asset/img/stand.png" rel="shortcut icon" type="image/png">
+</head>
+
+<body>
+    <!-- header start -->
+    <header class="header">
+        <a href="/" class="logo"><i class="fas fa-shopping-basket"></i>Shop Fruit</a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#features">features</a>
+            <a href="#products">products</a>
+            <a href="#categories">categories</a>
+            <a href="#review">review</a>
+            <a href="#blogs">blogs</a>
+        </nav>
+
+        <div class="icons">
+            <div class="fas fa-bars" id="menu-btn"></div>
+            <div class="fas fa-search" id="search-btn"></div>
+            <div class="fas fa-shopping-cart" id="cart-btn"></div>
+            <!-- <span class="header__cart-notic">3</span> -->
+            <div class="fas fa-user" id="login-btn"></div>
+        </div>
+        <!-- SEARCH SART -->
+        <form action="" class="search-form">
+            <input type="search" id="search-box" placeholder="search here....">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+        <!-- SEARCH END -->
+
+        <!-- CART START -->
+        <div class="shopping-cart">
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./asset/img/avocado.png" alt="">
+                <div class="content">
+                    <h3>fresh avocado</h3>
+                    <span class="price">200.0000đ</span>
+                    <span class="quantity">x 1</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./asset/img/carrot.png" alt="">
+                <div class="content">
+                    <h3>fresh carrot</h3>
+                    <span class="price">20.0000đ</span>
+                    <span class="quantity">x 2</span>
+                </div>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-trash"></i>
+                <img src="./asset/img/banana fruit fresh.png" alt="">
+                <div class="content">
+                    <h3>fesh banana</h3>
+                    <span class="price">40.0000đ</span>
+                    <span class="quantity">x 1</span>
+                </div>
+            </div>
+
+            <div class="total">total: 280.0000đ</div>
+            <a href="#" class="btn">check out</a>
+        </div>
+        <!-- CART END -->
+
+        <!-- USER START -->
+        <form action="" class="login-form">
+            <h3>login now</h3>
+            <input type="email" placeholder="enter your email" class="box">
+            <input type="password" placeholder="enter your password" class="box">
+            <p>forget your password <a href="#">click here</a></p>
+            <p>don't have an account <a href="#">create now</a></p>
+            <input type="submit" value="login now" class="btn">
+        </form>
+        <!-- USER END -->
+    </header>
+    <!-- header end -->
+
+    <!-- Home start -->
+    <section class="home" id="home">
+        <div class="content">
+            <h3 class="home__heading">fresh, clean and nutritious food for users</h3>
+            <p>Shop fruits was born to become a leading supplier, specializing
+                 in providing natural and safe foods, consulting and orienting
+                  the community to have a healthy life.</p>
+            <a href="#" class="btn">Shop Now</a>
+        </div>
+    </section>
+    <!-- home end -->
+
+    <!-- features start -->
+    <section class="features" id="features">
+        <h1 class="heading">
+            our
+            <span>features</span>
+        </h1>
+        <div class="feature-container"> 
+            <!-- box 1 -->
+            <div class="feature__item">
+                <img src="./asset/img/online shopping.png" alt="" class="feature-img">
+                <h3 class="feature__heading">Easy Payments</h3>
+                <p  class="feature__text">
+                    With advanced services and the current 
+                    situation, people can buy food through our
+                     website and people can pay online easily on
+                      mobile apps, it will save money and time. 
+                      customers' time and we always have staff to
+                      ist customers when needed.
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <!-- box 2 -->
+            <div class="feature__item">
+                <img src="./asset/img/shipper-shop.png" alt="" class="feature-img">
+                <h3 class="feature__heading">Free delivery</h3>
+                <p  class="feature__text">
+                    Here we have a team of free, fast delivery within two hours and 
+                    to the door of the user when buying food with us and
+                     we always bring the best to our customers and bring a
+                      sense of security. for all users.
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+            <!-- box 3 -->
+            <div class="feature__item">
+                <img src="./asset/img/fruit-basket.png" alt="" class="feature-img">
+                <h3 class="feature__heading">fresh and organic</h3>
+                <p class="feature__text">
+                    We Always Provide The Freshest Fruits For Users And 
+                    Meet Standards, Properly Stored Without Using
+                     Chemicals Affecting Food. The fruit on our side
+                      has a clear origin and that creates the reputation
+                       of our business.
+                </p>
+                <a href="#" class="btn">read more</a>
+            </div>
+        </div>
+    </section>
+    <!-- feratures end -->
+
+    <!-- product start -->
+
+    <section class="products" id="products">
+
+        <h1 class="heading"> our <span>products</span> </h1>
+        <!-- sile product 1 -->
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+                <!-- box 1 -->
+                <div class="swiper-slide box">
+                    <img src="./asset/img/lemon.png" alt="" class="product-img">
+
+                    <h3 class="product__heading">fresh lemon</h3>
+                    <div class="price" class="price-old"> 45.000đ </div>
+                    <div class="price-current">99.000đ</div>
+                    <div class="stars"  class="product__icon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <!-- box 2 -->
+                <div class="swiper-slide box">
+                    <img src="./asset/img/grape.png" alt="" class="product-img">
+
+                    <h3 class="product__heading">fresh grapes</h3>
+                    <div class="price" class="price-old">30.000đ</div>
+                    <div class="price-current">50.000đ</div>
+                    <div class="stars"  class="product__icon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <!-- box 3 -->
+                <div class="swiper-slide box">
+                    <img src="./asset/img/green apple.png" alt="" class="product-img">
+
+                    <h3 class="product__heading">fresh apple</h3>
+                    <div class="price" class="price-old">65.000đ</div>
+                    <div class="price-current">80.000đ</div>
+                    <div class="stars" class="product__icon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <!-- box 4 -->
+                <div class="swiper-slide box">
+                    <img src="./asset/img/plum.png" alt="" class="product-img">
+
+                    <h3  class="product__heading">fresh plum</h3>
+                    <div class="price" class="price-old">15.000đ</div>
+                    <div class="price-current">20.000đ</div>
+                    <div class="stars" class="product__icon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- sile product 2 -->
+        <div class="swiper product-slider">
+
+            <div class="swiper-wrapper">
+                <!-- box 1 -->
+                <div class="swiper-slide box">
+                    <img src="./asset/img/banana fruit fresh.png" alt="" class="product-img">
+                    <h3  class="product__heading">fresh banana</h3>
+                    <div class="price" class="price-old">40.000đ</div>
+                    <div class="price-current">55.000đ</div>
+                    <div class="stars" class="product__icon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <!-- box 2 -->
+                <div class="swiper-slide box">
+                    <img src="./asset/img/orange-fruits.png" alt="" class="product-img">
+
+                    <h3 class="product__heading">fresh orange</h3>
+                    <div class="price" class="price-old">100.000đ</div>
+                    <div class="price-current">129.000đ</div>
+                    <div class="stars" class="product__icon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <!-- box 3 -->
+                <div class="swiper-slide box">
+                    <img src="./asset/img/avocado.png" alt="" class="product-img">
+
+                    <h3 class="product__heading">fresh avocado</h3>
+                    <div class="price" class="price-old">200.000đ</div>
+                    <div class="price-current">300.000đ</div>
+                    <div class="stars" class="product__icon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+                <!-- box 3 -->
+                <div class="swiper-slide box">
+                    <img src="./asset/img/watermelon.png" alt="" class="product-img">
+
+                    <h3 class="product__heading">green carrot</h3>
+                    <div class="price" class="price-old">10.000đ</div>
+                    <div class="price-current">30.000đ</div>
+                    <div class="stars" class="product__icon">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                    <a href="#" class="btn">add to cart</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- product end -->
+
+    <!-- category start -->
+    <section class="category" id="category">
+        <h1 class="heading">Product
+            <span>Category</span>
+        </h1>
+        <!-- siler category 1 -->
+        <div class="box-container" class="category-container">
+            <!-- category 1 -->
+            <div class="box" class="category__item">
+                <img src="./asset/img/juice-fruits.png" alt=""  class="category-img">
+                <h3>synthetic juice</h3>
+                <div class="price-juice">150.000đ</div>
+                <p>upto 15% off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <!-- category 2 -->
+            <div class="box" class="category__item">
+                <img src="./asset/img/juice1_fruit.png" alt=""  class="category-img">
+                <h3>fresh strawberry juice</h3>
+                <div class="price-juice">25.000đ</div>
+                <p>upto 5% off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <!-- category 3 -->
+            <div class="box" class="category__item">
+                <img src="./asset/img/juice2-fruit.png" alt=""  class="category-img">
+                <h3>fresh orange juice</h3>
+                <div class="price-juice">25.000đ</div>
+                <p>upto 5% off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <!-- category 4 -->
+            <div class="box" class="category__item">
+                <img src="./asset/img/juice3_fruit.png" alt=""  class="category-img">
+                <h3>fresh carrot juice</h3>
+                <div class="price-juice">25.000đ</div>
+                <p>upto 5% off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div>
+
+        <!-- siler category 2 -->
+         <div class="box-container" class="category-container">
+             <!-- category 1 -->
+            <div class="box" class="category__item">
+                <img src="./asset/img/juice4-fruit.png" alt=""  class="category-img">
+                <h3>green fresh fruit</h3>
+                <div class="price-juice">350.000đ</div>
+                <p>upto 10% off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <!-- category 2 -->
+            <div class="box" class="category__item">
+                <img src="./asset/img/juice5-fruit.png" alt=""  class="category-img">
+                <h3>pureed butter</h3>
+                <div class="price-juice">25.000đ</div>
+                <p>upto 5% off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <!-- category 3 -->
+            <div class="box" class="category__item">
+                <img src="./asset/img/juice6-fruit.png" alt=""  class="category-img">
+                <h3>fresh apple juice</h3>
+                <div class="price-juice">25.000đ</div>
+                <p>upto 5% off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+            <!-- category 4 -->
+            <div class="box" class="category__item">
+                <img src="./asset/img/juice7-fruit.png" alt="" class="category-img">
+                <h3>mint juice</h3>
+                <div class="price-juice">35.000đ</div>
+                <p>upto 5% off</p>
+                <a href="#" class="btn">Shop Now</a>
+            </div>
+        </div> 
+    </section>
+    <!-- category end -->
+
+    <!--review start  -->
+    <section class="review" id="review">
+        <h1 class="heading">Customer
+            <span>Review</span>
+        </h1>
+
+        <div class="review-container">
+            <!-- review 1 -->
+            <div class="review__item">
+                <img src="./asset/img/pic-2.png" alt="" class="review-img">
+                <h3 class="heading__review">vegitables</h3>
+                <p class="review__text">
+                    very good products, especially fruit juices, I really like them, the price
+                     is very reasonable, very suitable for all ages to use....
+                </p>
+                <div class="review__icon">
+                    <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i> 
+                </div>   
+            </div>
+            <!-- review 2 -->
+            <div class="review__item">
+                <img src="asset/img/pic-3.png" alt="" class="review-img">
+                <h3 class="heading__review">fresh fruits</h3>
+                <p class="review__text">
+                    I feel very lucky to have found this website, the product is
+                     very well preserved and does not use chemical drugs in the fruits....
+                </p>
+                <div class="review__icon">
+                    <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i> 
+                </div>   
+            </div>
+            <!-- review 3 -->
+            <div class="review__item">
+                <img src="asset/img/pic-4.png" alt="" class="review-img">
+                <h3 class="heading__review">dairy products</h3>
+                <p class="review__text">
+                    Very reliable to use because all the fruit is fresh and clean,
+                     a variety of products for users to choose from, and cheap prices....
+                </p>
+                <div class="review__icon">
+                    <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i> 
+                </div>                           
+            </div>            
+        </div>
+    </section>
+<!-- review end -->
+
+<!-- blog start -->
+<section class="blogs" id="blogs">
+    <h1 class="heading">Our
+        <span>Blogs</span>
+    </h1>
+    <div class="blogs-container">
+        <!-- blogs 1 -->
+        <div class="blogs__item">
+            <img src="./asset/img/pexels-fruit.jpeg" alt="" class="blogs-img">
+            <div class="blogs__content">
+                <div class="blogs__icons">
+                    <a href="#" class="blogs__link">
+                        <i class="fas fa-user blogs__icons-user"></i>   
+                        by user               
+                    </a>
+                    <a href="#" class="blogs__link">
+                        <i class="fas fa-calendar blogs__icons-calendar"></i>
+                        24-24-2022                  
+                    </a>
+                </div>
+                <h3 class="blogs__heading">Preserving fresh fruit</h3>
+                <p class="blogs__text">instructions on how to properly preserve
+                     fruit for users and how to identify foods contaminated with
+                      chemicals...</p>
+                      <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+          <!-- blogs 2 -->
+         <div class="blogs__item">
+            <img src="./asset/img/pexels1-fruit.jpeg" alt="" class="blogs-img">
+            <div class="blogs__content">
+                <div class="blogs__icons">
+                    <a href="#" class="blogs__link">
+                        <i class="fas fa-user blogs__icons-user"></i>   
+                        by user               
+                    </a>
+                    <a href="#" class="blogs__link">
+                        <i class="fas fa-calendar blogs__icons-calendar"></i>
+                        24-24-2022                  
+                    </a>
+                </div>
+                <h3 class="blogs__heading">decorate the fruit on the basket</h3>
+                <p class="blogs__text">Instructions on how to choose fruits and decorate them on beautiful
+                     gift baskets to put in the living room or dining
+                      table for everyone...</p>
+                      <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+          <!-- blogs 3 -->
+         <div class="blogs__item">
+            <img src="./asset/img/sberries-fruit.jpeg" alt="" class="blogs-img">
+            <div class="blogs__content">
+                <div class="blogs__icons">
+                    <a href="#" class="blogs__link">
+                        <i class="fas fa-user blogs__icons-user"></i>   
+                        by user               
+                    </a>
+                    <a href="#" class="blogs__link">
+                        <i class="fas fa-calendar blogs__icons-calendar"></i>
+                        24-24-2022                  
+                    </a>
+                </div>
+                <h3 class="blogs__heading">dishes made from strawberries</h3>
+                <p class="blogs__text">Strawberry is a nutritious and expensive
+                     fruit in which strawberries are processed into many dishes
+                      such as strawberry level, juice, ...</p>
+                      <a href="#" class="btn">read more</a>
+            </div>
+         </div>
+    </div>  
+</section>
+<!-- blog end -->
+
+<!-- footer statr -->
+<section class="footer">
+    <div class="footer-container">
+        <!-- footer 1 -->
+        <div class="footer__item">
+            <h3 class="footer__heading">
+                
+                <i class="fas fa-shopping-basket footer__logo-shop"></i>
+                Shop Fruit
+            </h3>
+            <p class="footer__text">Our fruit shop always brings the best food to users</p>
+            <div class="footer__network">
+                <a href="#" class="fab fa-facebook footer__icons-network"></a>
+                <a href="#" class="fab fa-instagram footer__icons-network"></a>
+                <a href="#" class="fab fa-twitter footer__icons-network"></a>
+                <a href="#" class="fab fa-linkedin footer__icons-network"></a>
+            </div>
+        </div>
+        <!-- footer 2 -->
+        <div class="footer__item">
+            <h3 class="footer__heading">Contact ionfo</h3>
+            <a href="#" class="footer__link">
+                <i class="fas fa-phone footer__icons-contact"></i>
+                +111 222 33
+            </a>
+            <a href="#" class="footer__link">
+                <i class="fas fa-envelope footer__icons-contact"></i>
+                ketuan81@gmail.com
+            </a>
+            <a href="#" class="footer__link">
+                <i class="fas fa-map-marker-alt footer__icons-contact"></i>
+               thu duc HCM city
+            </a>
+        </div>
+        <!-- footer 3 -->
+        <div class="footer__item">
+            <h3 class="footer__heading">Quick Links</h3>
+            <a href="#" class="footer__link">
+                <i class="fas fa-arrow-right footer__icons-quick"></i>
+                Home
+            </a>
+            <a href="#" class="footer__link">
+                <i class="fas fa-arrow-right footer__icons-quick"></i>
+                Features
+            </a>
+            <a href="#" class="footer__link">
+                <i class="fas fa-arrow-right footer__icons-quick"></i>
+               Products
+            </a>
+            <a href="#" class="footer__link">
+                <i class="fas fa-arrow-right footer__icons-quick"></i>
+               Category
+            </a>
+            <a href="#" class="footer__link">
+                <i class="fas fa-arrow-right footer__icons-quick"></i>
+              Review
+            </a>
+            <a href="#" class="footer__link">
+                <i class="fas fa-arrow-right footer__icons-quick"></i>
+              Blogs
+            </a>
+        </div>
+        <!-- footer 4 -->
+        <div class="footer__item">
+            <h3 class="footer__heading">vao cua hang</h3>
+            <div class="footer__download">
+                <img src="./asset/img/qr.png" alt="" class="footer__link-qr">
+            
+            <div class="footer__download-app">
+                <a href="#" class="footer__download-link">
+                    <img src="./asset/img/app.png" alt="" class="footer__link-img">
+                </a>
+                <a href="#" class="footer__download-link">
+                   <img src="./asset/img/store.png" alt="" class="footer__link-img">
+                </a>
+            </div>
+        </div>
+        </div>     
+    </div>
+    <div class="footer-bottom"> © 2022 - Đặng Thanh Tuấn </div>
+</section>
+<!-- footer end -->
+    <!-- link swiper js -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <!-- link js -->
+    <script src="./scrip.js"></script>
+</body>
+</html>

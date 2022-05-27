@@ -1,0 +1,72 @@
+:root{
+    --orange:#f5933d;
+    --black:#130f40;
+    --light-color:#666;
+    --box-shadow:0 .5rem 1.5rem rgba(0,0,0,.1);
+    --border: 0.4rem solid rgba(0,0,0,.1);
+    --outline:1rem solid  rgba(0,0,0,.1);
+    --outline-hover:.2rem solid var(--black);
+    --light-blue: #669933;
+    --white-color: #34495e;
+}
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transform: all .2s linear;
+}
+
+html{
+    font-size: 62.5%; /*82.5%*/
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+}
+
+body{
+    background: #eee;
+}
+
+section{
+    padding: 2rem 9%;
+}
+
+/* btn shop now */
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    font-size: 1.7rem;
+    color: var(--black);
+    cursor: pointer;/*tao con tro chuot*/
+    padding: 0.8rem 3rem;
+    border-radius: 0.5rem;
+    border: 0.2rem solid var(--black);
+    background: none;
+}
+
+.btn:hover {
+    color: rgb(255, 255, 255);
+    background-color: var(--orange);
+}
+
+.heading {
+    text-align: center;
+    font-size: 3.5rem;
+    color: var(--black);
+    padding: 2rem 0px 3rem;
+}
+
+.heading span {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    clip-path: polygon(100% 0px, 93% 50%, 100% 99%, 0% 100%, 7% 50%, 0% 0%);
+    background-color: var(--orange);
+    padding: 0.5rem 3rem;
+}
